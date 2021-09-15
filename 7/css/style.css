@@ -59,3 +59,16 @@ nav{
 .gnb li:hover>a{
     background:#69f;
 }
+/*슬라이드*/
+#slide{
+    width:1200px; overflow:hidden; height:300px;
+}
+#slide ul{
+    animation:slide 9s infinite;
+}
+@keyframes slide{
+    0%{margin-top: 0;}
+    33.3%{margin-top: -300px;}
+    66.6%{margin-top: -600px;}
+    100%{margin-top: -900px;}
+}
